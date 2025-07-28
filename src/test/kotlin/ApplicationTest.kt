@@ -1,5 +1,6 @@
 package hajkarami.ir
 
+import ir.hajkarami.module
 import io.ktor.client.request.*
 import io.ktor.http.*
 import io.ktor.server.testing.*
