@@ -1,0 +1,14 @@
+package ir.hajkarami.routes
+
+import io.ktor.http.*
+import io.ktor.server.response.*
+import io.ktor.server.routing.*
+
+fun Route.root() {
+    get("/"){
+        call.respond(
+            message = "Welcome to Hero API!",
+            status = HttpStatusCode.OK
+        )
+    }
+}
